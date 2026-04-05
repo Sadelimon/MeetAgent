@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "MeetAgent",
+  "version": "1.0.0",
+
+  "//": "Gerçek zamanlı konuşmadan metne dönüşüm, NLP tabanlı toplantı özetleri ve otonom görev yönetimi — hepsi tarayıcında.",
+
+  "description": "Real-time speech-to-text, NLP-based meeting summaries, and autonomous task management — all in your browser.",
+
+  "action": {
+    "default_popup": "src/popup/index.html"
+  },
+  "background": {
+    "service_worker": "src/background/index.ts",
+    "type": "module"
+  },
+  "permissions": [],
+  "host_permissions": []
+}
